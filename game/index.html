@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
+    <!--link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /-->   
     <title>EXODUS</title>
 </head>
 
 <body> 
     <body class="gradient_bg">
         <header>
-           <a class="title_game" href="/Users/matli/Desktop/VSC/Exodus/index.html"><h2>EXODUS</h2></a>
+           <a class="title_game" href="/Users/matli/Desktop/Exodus/index.html"><h2>EXODUS</h2></a>
+           <!-- span class="material-symbols-outlined">
+            backpack
+            </span--> 
            <div class="schoolbag">
                <div class="itens">
                  <ul class="schoolbag-style">
                    <li>Carteira</li>
-                   <a href="file:///C:/Users/matli/Desktop/VSC/Exodus/conteudo/TEXTO/Manual%20de%20seguran%C3%A7a%20da%20uni%C3%A3o.pdf">Manual de segurança da união: Caçadores de Replicantes</a>
+                   <a href="file:///C:/Users/matli/Desktop/Exodus/conteudo/TEXTO/Manual%20de%20seguran%C3%A7a%20da%20uni%C3%A3o.pdf">Manual de segurança da união: Caçadores de Replicantes</a>
                    <li>Cigarro</li>
                  </ul>
                </div>
@@ -29,13 +33,13 @@
                    </p>
                    <button class="button_alert1" type="button" onclick="window.alert('Iniciando atererissagem')">Verificar Aviso</button> <br>
               
-               <span class="button_next1" onclick="renderChoices('next')">NEXT</span>
+               <span id="button_next1" onclick="renderChoices('pageOne')">NEXT</span>
                
            </div>
        </main>
 </body>
-<script src="js/partone.js"> 
-</script>
+<script src="js/partone.js"></script>
+<script src="js/backpack.js"></script>
 </html>
 
 <!--   span onclick="renderChoices('sobre')">Sobre</span>

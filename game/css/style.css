@@ -30,7 +30,8 @@
 .gradient_bg:hover{
     -webkit-animation: gradient 15s ease infinite;
     animation: gradient 15s ease infinite;
- }
+}
+
  @-webkit-keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -54,6 +55,7 @@
 		background-position: 0% 50%;
 	}
 }
+
 header{
     display: flex;
     align-items: center;
@@ -63,6 +65,7 @@ header{
     margin-right: 50px; 
     padding: 25px;
 }
+
 .title_game{
     text-decoration: none;
     display: flex;
@@ -71,8 +74,9 @@ header{
     color: white;
     font-size: 25px ;
 }
+
 main{
-    height: 450px;
+    height: 500px;
     border: 3px solid white;
     border-radius: 8px;
     display: flex;
@@ -97,10 +101,11 @@ main{
     font-size: 15px ;
     text-decoration: none;
 }
+
 li {
     list-style-type: none;
     color: white;
-  }
+}
 
 .text_game{
     color: #ffff;
@@ -112,6 +117,7 @@ li {
     justify-content: space-around;
     text-align: center;
 }
+
 .button_alert1{
     color: #e73c7e;
     background-color: white;
